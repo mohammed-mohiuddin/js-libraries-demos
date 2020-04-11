@@ -1,4 +1,4 @@
-require('dotenv').config()
+//require('dotenv').config()                we need to call config by ourselves if we don't use lookenv
 const express = require('express')
 
 const hostname = process.env.DEVELOPMENT_HOST

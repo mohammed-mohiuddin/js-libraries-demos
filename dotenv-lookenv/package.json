@@ -4,7 +4,7 @@
   "description": "practice project to learn setting environment variables",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js --require './node_modules/dotenv/config' --inspect"
+    "start": "lookenv --dotenv -- nodemon index.js --inspect"
   },
   "keywords": [
     "'dotenv'",
@@ -16,6 +16,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "lookenv": "^1.0.1",
     "nodemon": "^2.0.3"
   }
 }
